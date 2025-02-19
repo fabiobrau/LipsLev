@@ -61,7 +61,7 @@ This script will verify the robustness of the model on the first 10 samples of t
 
 As an example, the `_results_lipslev.csv` file will look like this:
 
-```
+```csv
 sentence,true_label,pred_label,margin,radius,time
 Fears for T N pension after talks Unions representing workers at Turner   Newall say they are 'disappointed' after talks with stricken parent firm Federal Mogul.,2,0,,,
 "The Race is On: Second Private Team Sets Launch Date for Human Spaceflight (SPACE.com) SPACE.com - TORONTO, Canada -- A second\team of rocketeers competing for the  #36;10 million Ansari X Prize, a contest for\privately funded suborbital space flight, has officially announced the first\launch date for its manned rocket.",3,3,2.302485466003418,2.0,0.003448009490966797
@@ -69,7 +69,7 @@ Fears for T N pension after talks Unions representing workers at Turner   Newall
 
 where each row corresponds to a sample in the dataset and each column is:
 
-- `sentence`: the sentence
+- `sentence`: the clean sentence
 - `true_label`: the true label
 - `pred_label`: the predicted label (the verification method will start if it's equal to the true label)
 - `margin`: the margin of the clean sample
