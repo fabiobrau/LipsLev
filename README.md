@@ -2,6 +2,8 @@
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white)[![Licence](https://img.shields.io/badge/MIT_License-lightgreen?style=for-the-badge)](./LICENSE)[![OpenReview](https://img.shields.io/badge/OpenReview-8C1B13?style=for-the-badge)](https://openreview.net/forum?id=cd79pbXi4N)
 
+![Main idea](figures/header.jpeg)
+
 Official implementation in PyTorch of the **ICLR 2025 paper "Certified Robustness Under Bounded Levenshtein Distance"**.
 
 ## Requirements
@@ -69,7 +71,7 @@ where each row corresponds to a sample in the dataset and each column is:
 
 - `sentence`: the sentence
 - `true_label`: the true label
-- `pred_label`: the predicted label (the verification method will start if its equal to the true label)
+- `pred_label`: the predicted label (the verification method will start if it's equal to the true label)
 - `margin`: the margin of the clean sample
 - `radius`: the certified radius of the sample
 - `time`: the time taken to verify the robustness of the sample
