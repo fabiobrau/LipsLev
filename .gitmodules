@@ -1,0 +1,9 @@
+[submodule "ember"]
+	path = ember
+	url = https://github.com/elastic/ember.git
+[submodule "maltorch"]
+	path = maltorch
+	url = https://github.com/zangobot/maltorch.git
+[submodule "Ransomware-Samples"]
+	path = Ransomware-Samples
+	url = https://github.com/kh4sh3i/Ransomware-Samples.git
